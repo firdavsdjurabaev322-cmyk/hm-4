@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ 
+
+ .container {
+   width: 1440px;
+   margin: 0 auto;
+
+ }
+
+header {
+   padding: 15px 15px;
+   background-color: skyblue;
+   color: aliceblue;
+ }
+.flex{
+      display: flex;
+   justify-content: space-around;
+}
+ .nav {
+   display: flex;
+   gap: 30px;
+ }
+
+ .logo {
+   width: 50px ;
+   height: 50px ;
+   background-color: azure;
+   border-radius: 100%;
+   padding: 12px;
+}
+
+.box {
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    border-radius: 20px;
+    background-color: #272728;
+flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 0;
+}
+
+.block {
+   width: 200px;
+   height: 80px;
+   background-color: rgb(255, 221, 68);
+   text-align: center;
+   padding: 50px;
+   border: none;
+}
+
+
+.auto{
+   cursor: auto;
+}
+
+.defolt{
+   cursor: default;
+}
+
+.none{
+   cursor: none;
+}
+
+.point{
+   cursor: pointer;
+}
+
+.text{
+   cursor: text;
+}
+
+.content{
+   cursor: context-menu;
+}
+
+.help{
+   cursor: help;
+}
+
+.prog {
+   cursor: progress;
+}
+
+.wait {
+   cursor: wait;
+}
+
+.cell {
+   cursor: cell;
+}
+ .cross {
+   cursor: crosshair;
+ }
+
+ .vertical {
+   cursor: vertical-text;
+ }
+
+ .alias {
+   cursor:alias;
+ }
+
+ .copy {
+cursor: copy;
+ }
+
+ .move {
+   cursor: move;
+ }
+
+ .drop{
+   cursor: no-drop;
+ }
+    .allowe{
+      cursor: not-allowed;
+    }
+
+    .grab {
+      cursor: grab;
+    }
+
+    .grabbing {
+      cursor: -moz-grabbing;
+    }
+
+    .scroll {
+      cursor: all-scroll;
+    }
+
+   .reseze {
+      cursor: col-resize;
+   }
+
+   .row {
+      cursor: row-resize;
+   }
+
+   .in{
+      cursor: zoom-in;
+   }
+
+   .out {
+      cursor: zoom-out;
+   }
